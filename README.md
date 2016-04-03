@@ -1,7 +1,7 @@
 # ZipWrapper
 A simple zip wrapper based on Lzma and Zlib compress algorithm using in Unity3D!
 
-处于几个原因或目的：
+出于几个原因或目的：
 
   1.去年用Unity4.6将我们游戏移植到iOS 64位的时候，首先遇到的是我们压缩工具库 ISharpCode.SharpZiplib.dll 不能被il2cpp支持（现在不知道有没有支持），当时在gitbub上找了UnityZip(其实就是用的Ionic.Zip)。
 
@@ -25,6 +25,8 @@ Thanks
   2.ZipStorer:https://github.com/jaime-olivares/zipstorer and https://github.com/neremin/ZipStorerTest
 
 
+D.S. Qiu
+
 2016 Guangzhou, Lucky Game
 
-D.S. Qiu
+
