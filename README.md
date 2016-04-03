@@ -12,6 +12,7 @@ A simple zip wrapper based on Lzma and Zlib compress algorithm using in Unity3D!
   4.Zip Archieve 在.Net framework 4.5才支持，虽然今天还看到Unity已经加入.Net基金会（肯定会有更多的支持），但是像Zlib 和 Lzma 和 Zip 几乎已经没有太多变化了，为了后面可以有更多的自由度所以干脆自己折腾了！
 
 Todo
+  
   1.学好英语
   
   2.对代码进行整理
@@ -20,7 +21,10 @@ Todo
   
 
 Thanks
+  
   1.NotNetZip:http://dotnetzip.codeplex.com/
+  
+  2.Lzma:http://www.7-zip.org/sdk.html
   
   2.ZipStorer:https://github.com/jaime-olivares/zipstorer and https://github.com/neremin/ZipStorerTest
 
