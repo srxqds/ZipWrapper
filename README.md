@@ -10,6 +10,8 @@ A simple zip wrapper based on Lzma and Zlib compress algorithm using in Unity3D!
   3.对压缩算法还是只停留在以前课堂学到haffman编码，一堆名词（GZip,Deflate,Zip,Lzma等）一直没搞明白之间的关系和区别，所以一直都很想更多了解一下。
   
   4.Zip Archieve 在.Net framework 4.5才支持，虽然今天还看到Unity已经加入.Net基金会（肯定会有更多的支持），但是像Zlib 和 Lzma 和 Zip 几乎已经没有太多变化了，为了后面可以有更多的自由度所以干脆自己折腾了！
+  
+  5.已有的库要么收费（ZipForge.NET,也有zlib.net开源——一开始我就用这个来封装结果跪了，看了ZInputStream真心敷衍）要么就是太庞大了没必要（SharpZip和Ionci.Zip，其实也还好）。
 
 Todo
   
