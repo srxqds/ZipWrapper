@@ -3,7 +3,7 @@ A simple zip wrapper based on Lzma and Zlib compress algorithm using in Unity3D!
 
 出于几个原因或目的：
 
-  1.去年用Unity4.6将我们游戏移植到iOS 64位的时候，首先遇到的是我们压缩工具库 ISharpCode.SharpZiplib.dll 不能被il2cpp支持（现在不知道有没有支持），当时在gitbub上找了UnityZip(其实就是用的Ionic.Zip)。
+  1.去年用Unity4.6将我们游戏移植到iOS 64位的时候，首先遇到的是我们压缩工具库 ISharpCode.SharpZiplib.dll 不能被il2cpp支持（现在不知道有没有支持），当时在gitbub上找了UnityZip(https://github.com/tsubaki/UnityZip)。
 
   2.这个项目移植到 Window Phone 上面也遇到不支持的情况。
   
