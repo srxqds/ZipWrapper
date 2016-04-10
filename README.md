@@ -1,5 +1,6 @@
 # ZipWrapper
-A simple zip wrapper based on Lzma and Zlib compress algorithm using in Unity3D!
+A simple zip archive wrapper use Lzma and Zlib compress algorithm for Unity3D!
+
 
 出于几个原因或目的：
 
