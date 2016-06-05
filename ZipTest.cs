@@ -1,4 +1,4 @@
-/*----------------------------------------------------------------
+﻿/*----------------------------------------------------------------
 // Copyright (C) 2015 广州，Lucky Game
 //
 // 模块名：
@@ -11,7 +11,6 @@
 using System.IO.Compression;
 using UnityEngine;
 using UnityEditor;
-using Zip;
 
 public class ZipTest
 {
@@ -20,15 +19,14 @@ public class ZipTest
     [MenuItem("Test/Zip")]
     public static void DoTest()
     {
-        string compressDirectory = @"C:\Users\D.S.Qiu\Downloads\DotNetZip-src-v1.9.1.8\DotNetZip";
-        ZipUtility.compressMode = ZipStorer.Compression.LZMA;
-        ZipUtility.ZipDirectory(EditorUtils.GetSystemFileFromAssetPath("Assets/Editor/Test/Lzma.zip"), compressDirectory);
+        /*string compressDirectory = @"C:\Users\D.S.Qiu\Downloads\DotNetZip-src-v1.9.1.8\DotNetZip";
+        ZipFile.compressMode = ZipArchive.Compression.LZMA;
+        ZipFile.ZipDirectory(EditorUtils.AssetPath2FilePath("Assets/Editor/Test/Lzma.zip"), compressDirectory);
 
-        ZipUtility.Unzip(EditorUtils.GetSystemFileFromAssetPath("Assets/Editor/Test/Lzma.zip"), EditorUtils.GetSystemFileFromAssetPath("Assets/Editor/Test/Lzma"));
-        ZipUtility.compressMode = ZipStorer.Compression.Deflate;
-        ZipUtility.ZipDirectory(EditorUtils.GetSystemFileFromAssetPath("Assets/Editor/Test/Zlib.zip"), compressDirectory);
-        ZipUtility.Unzip(EditorUtils.GetSystemFileFromAssetPath("Assets/Editor/Test/Zlib.zip"), EditorUtils.GetSystemFileFromAssetPath("Assets/Editor/Test/Zlib"));
-
-
+        ZipFile.Unzip(EditorUtils.AssetPath2FilePath("Assets/Editor/Test/Lzma.zip"), EditorUtils.AssetPath2FilePath("Assets/Editor/Test/Lzma"));
+        ZipFile.compressMode = ZipArchive.Compression.Deflate;
+        ZipFile.ZipDirectory(EditorUtils.AssetPath2FilePath("Assets/Editor/Test/Zlib.zip"), compressDirectory);
+        ZipFile.Unzip(EditorUtils.AssetPath2FilePath("Assets/Editor/Test/Zlib.zip"), EditorUtils.AssetPath2FilePath("Assets/Editor/Test/Zlib"));*/
+        ZipFile.Unzip(@"E:\data\data\c场景配置表 - 副本.zip", @"E:\data\data\c场景配置表 - 副本\");
     }
 }
